@@ -1,2 +1,3 @@
 # steal-my-sunshine
-Does he like butter tarts?
+
+An Xcode Playground that paints a cloudy sunset with a tiny Metal shader.
