@@ -22,7 +22,7 @@ do {
   print("library error: " + error.description)
 }
 
-let shaderView = MTKView(frame: NSRect(x: 0, y: 0, width: 800, height: 800), device: device)
+let shaderView = MTKView(frame: NSRect(x: 0, y: 0, width: 400, height: 400), device: device)
 let renderer = ShaderRenderer(device: device)
 renderer.library = library
 renderer.functionName = "keepingVersed"
